@@ -18,6 +18,7 @@ export const CountryInfo = ({
   population,
 }) => {
   return (
+    
     <CountryWrapper key={id}>
       <Flag>
         <Image src={flag} alt={countryName} />

@@ -2,12 +2,11 @@ import {
   Container,
   SearchForm,
   Section,
-  Heading,
   Loader,
   CountryList,
 } from 'components';
 import { useEffect, useState } from 'react';
-import { useParams, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import { fetchByRegion } from 'service/country-service';
 
 export const CountrySearch = () => {
