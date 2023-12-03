@@ -11,7 +11,6 @@ export const Home = () => {
     getCountries().then(setCountries).finally(setIsLoading(false));
   }, []);
 
-  console.log(countries);
   return (
     <Section>
       <Container>
