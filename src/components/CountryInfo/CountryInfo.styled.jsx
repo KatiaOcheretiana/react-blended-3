@@ -40,7 +40,9 @@ export const Flag = styled.div`
 `;
 
 export const Image = styled.img`
-  /* width: 150px; */
+  object-fit: cover;
+  height: 90px;
+  width: 140px;
 
   position: relative;
   border-radius: 8px;
@@ -61,6 +63,7 @@ export const CountryTitle = styled.h1`
   letter-spacing: 0.5px;
   color: #333;
   margin: 0;
+  text-align: center;
 `;
 
 export const CountryDetail = styled.p`
